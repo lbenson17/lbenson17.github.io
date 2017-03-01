@@ -7,18 +7,79 @@
 
 <head>
 <style>
+.dropbtn {
+    background-color: darkblue;
+    color: lightblue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: lightgray;
+}
+</style>
+</head>
+<body>
+
+<div class="dropdown">
+  <button class="dropbtn">Links</button>
+  <div class="dropdown-content">
+  	<a href="aboutme.html">About Me</a>
+    <a href="sports.html">Sports</a>
+  </div>
+</div>
+
+</body>
+
+<head>
+<style>
 
 h1 {
     text-align: center;
-    color: white;
+    color: darkblue;
 }
 
 p {
 	text-align: center;
+	color: darkblue;
 }
 
+div {
+	text-align: center;
+	color: darkblue;
+	}
+
 body {
-background-color: maroon;
+background-color: lightblue;
 	}
 
 </style>
@@ -33,17 +94,30 @@ background-color: maroon;
 	
 	<H1>Social Media</H1>
 	
+	<p> (All pictures are links so feel free to click away)
+	</p>
+	
 	<p><a href="https://venmo.com/Liam-Benson-1">
   <img src="venmo.png">
 </a></p>
+
+	<p> Poor college student so please send any funds possible, it's to a good cause.
+	</p>
 
 	<p><a href="https://twitter.com/LiBenson17">
   <img src="twitter.png">
 </a></p>
 
+	<p> The official Twitter account of Liam Benson. 
+	</p>
+
 	<p><a href="https://www.facebook.com/liam.benson.92">
   <img src="facebook.png">
 </a></p>
+
+	<p> This is my facebook page, I haven't used it in years so theres not much relevant information on it.
+	<div>But take a look if you would like.</div>
+	</p>
 	
 	</body>
 	
